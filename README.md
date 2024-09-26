@@ -10,7 +10,14 @@ VimAid is a Vim plugin that allows you to ask questions within a Vim session usi
 1. **Manual Installation:**
    - Copy the `vimaid.vim` file to your Vim plugin directory, usually `~/.vim/plugin/`.
 
-2. **Using a Plugin Manager:**
+2. **Using Pathogen:**
+   - First, make sure you have Pathogen installed. If not, follow the instructions [here](https://github.com/tpope/vim-pathogen).
+   - Clone the repository into your `~/.vim/bundle` directory:
+     ```bash
+     git clone https://github.com/yourusername/yourrepository ~/.vim/bundle/vimaid
+     ```
+
+3. **Using a Plugin Manager:**
    - If you use a plugin manager like [Vundle](https://github.com/VundleVim/Vundle.vim) or [vim-plug](https://github.com/junegunn/vim-plug), add the following line to your `.vimrc` or `init.vim`:
      ```vim
      Plug 'yourusername/yourrepository'
